@@ -10,7 +10,7 @@ function AddBooks() {
 
   useEffect(() => {
     if (filled) {
-      fetch(`/api/books/addbooks`, {
+      fetch(`https://boostup-backend-5wl1p083o-prateekch33.vercel.app/api/books/addbooks`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

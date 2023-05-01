@@ -7,7 +7,7 @@ function AdminNav() {
   const navigate = useNavigate();
   const [name, setName] = useState("");
   useEffect(() => {
-    fetch(`/api/admin/adminshow`, {
+    fetch(`https://boostup-backend-5wl1p083o-prateekch33.vercel.app/api/admin/adminshow`, {
       method: "GET",
       headers: {
         authorization: `${localStorage.getItem("authToken")}`,

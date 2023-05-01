@@ -21,7 +21,7 @@ function CardHolder() {
   const [search, setSearch] = useState("");
   const [books, setBooks] = useState([]);
   useEffect(() => {
-    fetch(`/api/books/bookshow?search=${search}`, {
+    fetch(`https://boostup-backend-5wl1p083o-prateekch33.vercel.app/api/books/bookshow?search=${search}`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

@@ -10,7 +10,7 @@ function Login() {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch(`/api/admin/login`, {
+    fetch(`https://boostup-backend-5wl1p083o-prateekch33.vercel.app/api/admin/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

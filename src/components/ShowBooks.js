@@ -4,7 +4,7 @@ import Cards from "./Cards";
 function ShowBooks() {
   const [books, setBooks] = useState([]);
   useEffect(() => {
-    fetch(`/api/books/getallbooks`, {
+    fetch(`https://boostup-backend-5wl1p083o-prateekch33.vercel.app/api/books/getallbooks`, {
       method: "GET",
       headers: {
         "Content-Type": "application/json",

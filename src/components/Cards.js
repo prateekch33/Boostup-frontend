@@ -4,7 +4,7 @@ import Card from "react-bootstrap/Card";
 
 const deleteBook = (id) => {
   console.log(id);
-  fetch(`/api/books/deletebook`, {
+  fetch(`https://boostup-backend-5wl1p083o-prateekch33.vercel.app/api/books/deletebook`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
